@@ -1,6 +1,7 @@
 
 import os
 import streamlit as st
+from langchain_community.llms import OpenAI
 from utils import load_and_split_pdf, create_vector_db, query_pdf
 
 st.set_page_config(page_title="Chat with PDF", layout="centered")
