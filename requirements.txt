@@ -1,0 +1,6 @@
+openai
+langchain
+faiss-cpu
+PyMuPDF
+streamlit
+tiktoken
